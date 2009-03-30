@@ -1,20 +1,9 @@
-### View doc here:
-
-http://suitmymind.github.com/ubuntu-machine
-
-
-### Changelog here:
-
-http://suitmymind.github.com/ubuntu-machine/#changelog
+* [Documentation](http://suitmymind.github.com/ubuntu-machine)
+* [Changelog](http://suitmymind.github.com/ubuntu-machine/#changelog)
 
 
-### Contributors:
+### This fork:
 
-- Joseph Glenn
-- Ahume
+- Removes PHP support
+- Adds changes to accomodate Ubuntu Server (i.e. `aptitude` and `wget` are explicitly installed now)
 
-
-### This version:
-
-- Removed PHP support
-- Changes to accomodate Ubuntu Server setups (i.e. `aptitude` and `wget` are explicitly installed now)
