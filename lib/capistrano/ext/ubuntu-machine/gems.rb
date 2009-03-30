@@ -5,6 +5,7 @@ namespace :gems do
     run "tar xvzf rubygems-#{rubygem_version}.tgz"
     run "cd rubygems-#{rubygem_version} && sudo ruby setup.rb"
     sudo "ln -s /usr/bin/gem1.8 /usr/bin/gem"
+    sudo "gem sources -a http://gems.github.com"
     sudo "gem update"
     sudo "gem update --system"
     run "rm -Rf rubygems-#{rubygem_version}*"
