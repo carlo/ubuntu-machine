@@ -36,7 +36,6 @@ namespace :machine do
     ruby.install_enterprise
     ruby.install_passenger
     git.install
-    php.install
   end
   
   desc = "Ask for a user and change his password"
