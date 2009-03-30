@@ -89,8 +89,9 @@ namespace :aptitude do
     update
     sudo "locale-gen en_GB.UTF-8"
     sudo "/usr/sbin/update-locale LANG=en_GB.UTF-8"
+    sudo "apt-get install -y aptitude"
     safe_upgrade
     full_upgrade
-    sudo "apt-get install -y build-essential"
+    sudo "apt-get install -y build-essential wget"
   end
 end
