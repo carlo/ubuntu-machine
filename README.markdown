@@ -4,6 +4,7 @@
 
 ### This fork:
 
-- Removes PHP support
-- Adds changes to accomodate Ubuntu Server (i.e. `aptitude` and `wget` are explicitly installed now)
-
+* Added installation of Graphicsmagick (as I need it for RMagick)
+* Added changes to accomodate Ubuntu Server (i.e. `aptitude` and `wget` are
+  explicitly installed now)
+* Removed PHP support
