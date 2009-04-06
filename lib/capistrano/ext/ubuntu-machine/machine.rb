@@ -32,6 +32,7 @@ namespace :machine do
     apache.install
     ruby.install
     postfix.install
+    graphicsmagick.install
     gems.install_rubygems
     ruby.install_enterprise
     ruby.install_passenger
